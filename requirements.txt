@@ -1,0 +1,27 @@
+python3
+pymysql
+
+To install pymysql:
+-------------------
+pip install pymysql
+
+If above install command will not work then go with this command:
+sudo apt-get install python3-pymysql
+
+
+After Successful installation of python and pymysql: 
+You have to import contact_book.sql file to your mysql database which you like And then
+
+After then You need to do changes on database.py script in DbConfig folder with your database server details:
+(host='localhost', user='root',password='',db='test_flask')
+
+with your server details
+
+-------------------------------
+To run the applicaiton :
+
+Open your terminal and go to your project folder and just type: python app.py
+
+And you will see your application is running on localhost with port
+
+
